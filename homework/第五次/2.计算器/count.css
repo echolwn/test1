@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.all{
+	width:950px;
+	height:100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -50px;
+	margin-left: -475px;
+	background: orange;
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}

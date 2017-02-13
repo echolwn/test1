@@ -1,0 +1,24 @@
+$("#daohang a").click(function (e) {
+  		e.preventDefault();
+  		$(this).tab("show");
+ })
+$("#collapseOne a").click(function (e) {
+  		e.preventDefault();
+  		$(this).tab("show");
+ })
+$("#home").click(function (e) {
+  		e.preventDefault();
+  		$("#home").addClass("active");
+ })
+$("#profile").click(function (e) {
+  		e.preventDefault();
+  		$("#profile").addClass("active");
+ })
+$("#messages").click(function (e) {
+  		e.preventDefault();
+  		$("#messages").addClass("active");
+ })
+$("#settings").click(function (e) {
+  		e.preventDefault();
+  		$("#settings").addClass("active");
+ })

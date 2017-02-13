@@ -1,0 +1,416 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+body{
+	width:100%;
+	height:100%;
+}
+.daohang{
+	width:100%;
+	height:62px;
+	border-bottom: 1px solid #F4F4F4;
+}
+/*导航*/
+.canva{
+	width:1190px;
+	height:62px;
+	margin:0 atuo;
+}
+.pic-1{
+	width:190px;
+	height:60px;
+	float:left;
+	background: url("./picture/logo.png") no-repeat;
+	background-size: 190px 60px;
+}
+.col{
+	width:470px;
+	height:60px;
+	float:left;
+	margin-left:20px;
+}
+.col .weather{
+	width:202px;
+	height:60px;
+	float:left;
+}
+.col .weather:hover{
+	background: #F7F7F7;
+	cursor: pointer;
+	height:62px;
+}
+.col span{
+	font-size: 12px;
+	height:60px;
+	line-height: 60px;
+	margin-right:8px;
+}
+.date{
+	float:left;
+	width:160px;
+	height:62px;
+}
+.date:hover{
+	background: #F7F7F7;
+	cursor: pointer;
+	height:62px;
+	border-left:1px solid #D6D6D6;
+	border-right:1px solid #D6D6D6;
+	border-bottom: 1px solid #F7F7F7;
+}
+.date span{
+	margin-right: 5px;
+	margin-left:5px;
+}
+.star{
+	width:58px;
+	height:60px;
+	float: left;
+	margin-left: 5px;
+}
+.star span{
+	margin-left: 5px;
+	margin-right:5px;
+}
+.star:hover{
+	background: #F7F7F7;
+	cursor: pointer;
+	height:62px;
+	border-left:1px solid #D6D6D6;
+	border-right:1px solid #D6D6D6;
+	border-bottom: 1px solid #F7F7F7;
+}
+.customer{
+	float: right;
+	width:349px;
+	height:60px;
+}
+.customer div{
+	display: inline-block;
+}
+.customer div span{
+	text-align: center;
+	height:62px;
+	line-height: 60px;
+	font-size: 12px;
+	margin-left: 8px;
+}
+.customer div:hover{
+	cursor: pointer;
+	background: #F7F7F7;
+}
+/*搜索框等一行*/
+.alc{
+	width:1190px;
+	height:121px;
+	margin:0 auto;
+}
+.center{
+	position: relative;
+	width:965px;
+	height:121px;
+	margin:0 auto;
+}
+.baidu{
+	display: inline-block;
+	background: url("./picture/all.png")-10px -212px no-repeat;
+	width:120px;
+	height:40px;
+	float:left;
+	position: absolute;
+	top:50%;
+	margin-top:-30px;
+} 
+.input{
+	position: absolute;
+	width:700px;
+	height:70px;
+	margin-left: 147px;
+	top:50%;
+	margin-top:-35px;
+}
+input{
+	float:left;
+	width:539px;
+	height:40px;
+}
+.img{
+	display: inline-block;
+	background: url("./picture/all.png")-211px -180px no-repeat;
+	float:left;
+	width:120px;
+	height:46px;
+}
+.img:hover{
+	background: url("./picture/all.png") no-repeat -211px -230px;
+	cursor: pointer;
+}
+.five{
+	position: absolute;
+	left:690px;
+	top:-27px;
+	width:90px;
+	height:121px;
+}
+.five span{
+	margin-top: 50px;
+	float: left;
+	width:8px;
+	height:8px;
+	border-radius: 4px;
+	margin-right:5px;
+}
+#red{
+	background: red;
+}
+#orange{
+	background: orange;
+}
+#green{
+	background: yellowgreen;
+}
+#yellow{
+	background: yellow;
+}
+#purple{
+	background: purple;
+}
+.span{
+	float: left;
+}
+.span span{
+	float: left;
+	margin-right:15px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.span span:hover{
+	color:red;
+}
+.sousuo{
+	display: inline-block;
+	background: url(https://gss1.bdstatic.com/5eN1dDebRNRTm2_p8IuM_a/v5/0W/zO/-A/q4/0Z/4/index_widthlg.png) -159px -260px no-repeat;
+	width:15px;
+	height:15px;
+	margin-right:3px;
+}
+/*首页电视剧最新电影等*/
+.tb1{
+	width:1190px;
+	height:39px;
+	margin:0 auto;
+}
+.tb1 tr th{
+	width:111px;
+	height:38px;
+	border-top: 2px solid #099E6A;
+	border-left:1px solid #FCFCFC;
+}
+.first{
+	background: #099E6A;
+}
+/*权威推荐等*/
+.tb2{
+	margin:0 auto;
+	margin-top:3px;
+	width:1190px;
+	height:39px;
+	border-left: 1px solid #099E6A;
+	border-right: 1px solid #099E6A;
+}
+.tb2 tr th{
+	border-top: 1px solid #099E6A;
+	border-bottom: 1px solid #099E6A;
+	width:100px;
+	height:36px;
+}
+.power{
+	color: #099E6A;
+}
+.content{
+	margin-top: 10px;
+	width:1190px;
+	height:520px;
+}
+.shu{
+	width:278px;
+	height:520px;
+	float: left;
+}
+.pic{
+	width:278px;
+	height:70px;
+	background: url("./picture/fuyuanhui.jpg");
+}
+.right1{
+	float: left;
+	margin-top:11px;
+	width:278px;
+	height:94px;
+	border:1px solid #CECECE;
+}
+.right1 ul{
+	margin-left:-25px;
+}
+.right1 ul li{
+	list-style: none;
+	line-height: 30px;
+	font-size: 13px;
+}
+.right-1{
+	float:right;
+	margin-top:-88px;
+	margin-right:25px;
+}
+.top{
+	border-top: 1px solid #ACACAC;
+	width:278px;
+	height:25px;
+	background: #F7F7F5;
+	margin-top:106px;
+	border-left: 1px solid #ACACAC;
+	border-right: 1px solid #ACACAC;
+}
+.top span{
+	color:#FF5601;
+	margin-left: 25px;
+	font-size: 12px;
+}
+.phone{
+	width:278px;
+	height:28px;
+	border-bottom: 1px solid #ACACAC;
+	border-left: 1px solid #ACACAC;
+	border-right: 1px solid #ACACAC;
+}
+.ul-1{
+	margin-left: -25px;
+}
+.ul-2{
+	float: right;
+	margin-right:25px;
+}
+.phone ul li{
+	font-size: 13px;
+	list-style: none;
+	float:left;
+	height:28px;
+	line-height: 28px;
+}
+.wangpan{
+	width:280px;
+	height:28px;
+}
+.wangpan table{
+	border-left: 1px solid #ACACAC;
+	border-right: 1px solid #ACACAC;
+}
+.wangpan table th{
+	width:55.7px;
+	height:28px;
+	font-size: 13px;
+}
+.tuijian{
+	width:280px;
+	height:35px;
+}
+.tuijian table{
+	border-left: 1px solid #ACACAC;
+	border-right: 1px solid #ACACAC;
+	background: #F7F7F7;
+}
+.tuijian table th{
+	width:55px;
+	height:35px;
+}
+.tui{
+	color:#0AA770;
+	border-top: 1px solid #0AA770;
+}
+.picture{
+	width:280px;
+	height:110px;
+	background: url("./picture/fuyuanhui.jpg");
+}
+.news{
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	width:278px;
+	height:124px;
+	border:1px solid #ACACAC;
+}
+
+.news ul li{
+	line-height: 29px;
+	font-size: 13px;
+}
+/*右面内容*/
+.righton{
+	width:900px;
+	height:532px;
+	float: left;
+	margin-left: 11px;
+}
+.wang{
+	width:900px;
+	float: left;
+	height:251px;
+	border:1px solid #84D7BA;
+}
+.wang table th{
+	width:150px;
+	height:32.14px;
+}
+th{
+	width:150px;
+	height:32.14px;
+	position: relative;
+}
+th img{
+	height:20px;
+	width:22px;
+	position: absolute;
+	top:50%;
+	margin-top:-10px;
+	margin-left: -22px;
+}
+.img-0{
+	height:25px;
+	width:22px;
+	position: absolute;
+	top:50%;
+	margin-top:-17px;
+	margin-left: -22px;
+}
+#word-0{
+	color:#0AA770;
+}
+/*聚划算，创业干洗店等*/
+.ricenter{
+	width:900px;
+	height:33px;
+	margin-top:251px;
+}
+.ricenter span{
+	margin-left: 25px;
+	font-size: 14px;
+}
+.ricenter span:nth-child(1){
+	margin-left: 45px;
+}
+/*游戏热门购物等*/
+#word{
+	color:#0AA770;
+}
+.like{
+	width:900px;
+	height:116px;
+	border:1px solid #CECECE;
+}
+.doa{
+	width:900px;
+	height:33px;
+	margin-top:12px;
+	border:1px solid #CECECE;
+}

@@ -1,0 +1,37 @@
+.{
+		padding:0;
+		margin:0;
+	}
+	/*正常盒子*/
+	.xiehe{
+		margin:100px;
+		padding:10px;
+		background-color: aqua;
+		width:100px;
+		height:100px;
+		border:5px solid red;
+		box-shadow:5px 5px 5px rgba(0,0,0,6);
+	}
+	.xiezi{
+		width:100px;
+		height:100px;
+		background-color:orange;
+		overflow-y:scroll;
+	}
+	/*怪异的盒子*/
+	.xiehe1{
+		margin:50px;
+		margin-left:100px;
+		padding:10px;
+		width:130px;
+		height:130px;
+		background-color:aqua;
+		border:5px solid red;
+		box-sizing:border-box;
+		box-shadow:5px 5px 5px rgba(0,0,0,6);
+	}
+	.xiezi1{
+		width:100px;
+		height:100px;
+		background-color:orange;
+	}

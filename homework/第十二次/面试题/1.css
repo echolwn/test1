@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	display: block;
+	width:1000px;
+	margin:0 auto;
+	background:orange;
+}
+p{
+	text-indent:2rem;
+}
+.red{
+	color:red;
+}
+.blue{
+	color:blue;
+}

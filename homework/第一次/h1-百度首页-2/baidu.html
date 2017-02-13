@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+    #more-product {
+        width: 58px;
+        height: 24px;
+    }
+    
+    #more-product dl {
+        display: none;
+        width: 58px;
+        height: 24px;
+    }
+    
+    element.style {
+        display: block;
+    }
+    
+    #shezhi {
+        width: 68px;
+        height: 28px;
+    }
+    
+    div {
+        display: inline-block;
+        font-size: 12px;
+        float: right;
+    }
+    
+    .div-height {
+        height: 28px;
+    }
+    
+    dl {
+        display: none;
+        height: 28px;
+        text-align: center;
+        border:2px solid black;
+    }
+    
+    dl dt {
+        border-bottom: grey 1px;
+        padding: 5px;
+    }
+    
+    div:hover dl {
+        display: block;
+        background: transparent;
+    }
+    
+    a {
+        text-decoration: none;
+        padding: 5px;
+        float: right;
+    }
+    
+    #box {
+        height: 250px;
+        width: 700px;
+        margin: 0 auto;
+        text-algin: center;
+    }
+    
+    #box img {
+        vertical-align: middle;
+    }
+    </style>
+</head>
+
+<body>
+<!-- 这是导航条 -->
+    <div style="display:block">
+        <span id="more-product" style="
+    display: block;
+">更多产品</span>
+        <dl>
+            <dt><a href="http://music.baidu.com/">音乐</a></dt>
+            <dt><a href="http://image.baidu.com/">图片</a></dt>
+            <dt><a href="http://zhidao.baidu.com/">知道</a></dt>
+            <dt><a href="http://wenku.baidu.com/">文库</a></dt>
+            <dt><a href="http://top.baidu.com/">风云榜</a></dt>
+            <dt><a href="http://e.baidu.com/?refer=888">百度推广</a></dt>
+            <dt><a href="https://www.baidu.com/more/">全部产品</a></dt>
+        </dl>
+    </div>
+    <div>
+        <span id="shezhi" style="
+    display: block;
+">设置</span>
+        <dl>
+            <dt><a href="javascript:;">搜索设置</a></dt>
+            <dt><a href="https://www.baidu.com/gaoji/advanced.html">高级搜索</a></dt>
+            <dt><a href="javascript:;">开启预测</a></dt>
+            <dt><a href="javascript:;">搜索历史</a></dt>
+        </dl>
+    </div>
+    <a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F">登录</a>&nbsp;
+    <a href="http://tieba.baidu.com/"><b>贴吧</b></a>&nbsp;
+    <a href="http://v.baidu.com/"><b>视频</b></a>&nbsp;
+    <a href="http://map.baidu.com/"><b>地图</b></a>&nbsp;
+    <a href="http://www.hao123.com/"><b>hao123</b></a>&nbsp;
+    <a href="http://news.baidu.com/"><b>新闻</b></a>&nbsp;
+    <a href="http://www.nuomi.com/?cid=002540"><b>糯米</b></a>
+    <!-- 这是百度logo，img标签 -->
+    <div id="box">
+        <img src="./baidu_files/bd_logo1.png" width="270px" height="129px">
+    </div>
+    <table width="100%" border="0" cellspacing="0">
+    <!-- 这是form表单 -->
+        <form action="file:///F:/h1-1/result.php" method="get"></form>
+        <tbody>
+            <tr>
+                <td align="center">
+                <!-- 这是input标签 -->
+                    <input type="text" name="textfield" id="textfield" style="width:500px;height:35px;">
+                    <input type="button" value="百度一下" name="百度一下" style="height:35px;" id="baidu">
+                    <select name="select" id="select">
+                        <option value="手写">手写</option>
+                        <option value="拼音">拼音</option>
+                        <option value="关闭">关闭</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- 这是table表格 -->
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                <!-- 这是img标签 -->
+                    <img src="./baidu_files/1.png" style="width:60px;height:60px;">
+                </td>
+                <td><span><b>手机百度</b></span>
+                    <br>
+                    <span>快人一步</span>
+                </td>
+                <td>
+                <!-- 这是img标签 -->
+                    <img src="./baidu_files/2.png" style="width:60px;height:60px;">
+                </td>
+                <td><span><b>百度糯米</b></span>
+                    <br>
+                    <span>一元大餐</span>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://www.baidu.com/cache/sethelp/help.html">把百度设为主页</a></td>
+                <td><a href="http://home.baidu.com/">关于百度</a></td>
+                <td><a href="http://ir.baidu.com/">About Baidu</a></td>
+            </tr>
+            <tr>
+                <td><span>©2016 Baidu</span></td>
+                <td><a href="http://www.baidu.com/duty/">使用百度前必读</a></td>
+                <td><a href="http://jianyi.baidu.com/">意见反馈</a></td>
+                <td><span>京ICP证030173号</span></td>
+                <!-- 这是img标签 -->
+                <td><img src="./baidu_files/3.png" style="width:14px;"></td>
+            </tr>
+            <tr>
+            <!-- 这是img标签 -->
+                <td><img src="./baidu_files/4.png" style="17px;"></td>
+                <td><span>京公网安备11000002000001号</span></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

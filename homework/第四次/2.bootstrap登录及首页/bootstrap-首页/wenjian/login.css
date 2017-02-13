@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url("../picture/login_bg_0.jpg") no-repeat;
+}
+.bg-icon{
+	position:absolute;
+	width:477px;
+	height:479px;
+	background:url("../picture/login_bg.png") no-repeat;
+	background-size:477px 479px;
+	top:50%;
+	left:50%;
+	margin-left:-238px;
+	margin-top:-239px;
+}
+.my-icon{
+	width:120px;
+	height:120px;
+	border-radius:60px;
+	background:url("../picture/moon.jpg") center no-repeat;
+	background-size:120px 120px;
+	margin:0 auto;
+	margin-top:28px;
+}
+.user{
+	width:300px;
+	height:43px;
+	margin:0 auto;
+	margin-top:43px;
+}
+.user input{
+	background:url("../picture/login_user.png") #bdbdbd no-repeat;
+	background-size:43px 43px;
+	font-size:16px;
+	text-indent:54px;
+	border-radius:0px;
+	width:100%;
+	height:43px;
+	border:1px solid #bdbdbd;
+	color:white;
+}
+.password{
+	width:300px;
+	height:43px;
+	margin:0 auto;
+	margin-top:17px;
+}
+.password input{
+	background:url("../picture/login_pas.png")#bdbdbd no-repeat;
+	background-size:43px 43px;
+	font-size:16px;
+	text-indent:54px;
+	border-radius:0px;
+	width:100%;
+	height:43px;
+	border:1px solid #bdbdbd;
+	color:white;
+}
+.login{
+	width:300px;
+	height:43px;
+	margin:0 auto;
+	margin-top:11px;
+}
+.login button{
+	width:100%;
+	height:43px;
+	background:#F0AD4E;
+	color:white;
+	border-radius:0px;
+	border:1px solid #F0AD4E;
+	font-size:16px;
+}
+.login button:hover{
+	cursor:pointer;
+}
+.checkbox{
+	width:300px;
+	height:20px;
+	margin:0 auto;
+	margin-top:13px;
+}

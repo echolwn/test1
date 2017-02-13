@@ -1,0 +1,46 @@
+/*尾部两行*/
+footer{
+	margin-top:25px;
+	width:100%;
+	height:61px;
+	float:left;
+}
+.fspan1{
+	position: relative;
+	width:393px;
+	height:100%;
+	margin:0 auto;
+}
+.fspan1 dl dt{
+	float: left;
+	font-size: 12px;
+}
+.fspan1 dl dt:nth-child(2){
+	margin-left:17px;
+}
+.fspan1 dl dt:nth-child(3){
+	margin-left: 5px;
+	margin-right:5px;
+}
+.fspan1 dl dt:nth-child(4){
+	margin-right:5px;
+}
+.fspan1 dl dt a{
+	margin-left: 0;
+}
+/*.fspan1 dl dt span*/
+.dt4{
+	position: absolute;
+	right:0;
+	top:0;
+}
+.ddt{
+	text-align: center;
+	position: absolute;
+	left:50%;
+	margin-left:-80px;
+	top:22px;
+}
+.ddt a{
+	text-decoration:none;
+}

@@ -1,0 +1,43 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+body{
+	width:100%;
+	height:100%;
+}
+.daohang{
+	width:100%;
+	height:62px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.canva{
+	width:1190px;
+	height:62px;
+	margin:0 atuo;
+}
+.pic-1{
+	width:190px;
+	height:60px;
+	float:left;
+	background: url("./picture/logo.png") no-repeat;
+	background-size: 190px 60px;
+}
+.col{
+	width:470px;
+	height:60px;
+	background: orange;
+	float:left;
+	margin-left:20px;
+}
+.col .weather{
+	width:202px;
+	height:60px;
+	float:left;
+	background: yellow;
+}
+.col span{
+	font-size: 12px;
+	height:60px;
+	line-height: 60px;
+}

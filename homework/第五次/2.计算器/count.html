@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="count.css">
+</head>
+<body>
+	<!-- 输入运算值在橘色背景区域内，结果输出为alert -->
+	<div class="all">
+		<form action="">
+			<label for="first">第一个数值</label>
+			<input type="number" id="first">
+			<label for="second">第二个数值</label>
+			<input type="number" id="second">
+			<label for="operate">请以符号代表运算符</label>
+			<select name="select" id="operate">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
+			<input type="button" value="submit" onclick="calculate(this)" id="sub">
+		</form>
+	</div>
+	<script src="count.js"></script>
+</body>
+</html>

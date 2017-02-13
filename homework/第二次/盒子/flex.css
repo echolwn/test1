@@ -1,0 +1,27 @@
+.{
+	margin:0;
+	padding:0;
+}
+/*.img1{
+	float:left;
+}*/
+.left{
+	float:left;
+	width:300px;
+	background-color:antiquewhite;
+}
+.right{
+	float:left;
+	width:300px;
+	background:yellow;
+}
+.top{
+	float:top;
+	width:300px;
+	background:orange;
+}
+.bottom{
+	float:bottom;
+	width:300px;
+
+}

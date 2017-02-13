@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/count.css">
+</head>
+<body>
+	<!-- 计算器的整体 -->
+	<div class="all">
+		<!-- 计算器的显示框 -->
+		<div id="text">
+			<!-- 去除聚焦 -->
+			<div id="result"></div>
+		</div>
+		<div class="row1">
+			<ul>
+				<li>
+					<input type="button" value="后退" onclick="back()" id="back">
+				</li>
+				<li>
+					<input type="button" value="C" onclick="dzero()" id="delete">
+				</li>
+			</ul>
+		</div>
+		<!-- sin，con,tan,负号，倒数 -->
+		<div class="row2">
+			<ul>
+				<li><input type="button" value="sin" id="sin" onclick="sin1()"></li>
+				<li><input type="button" value="cos" id="cos" onclick="cos1()"></li>
+				<li><input type="button" value="tan" id="tan" onclick='tan1()'></li>
+				<li><input type="button" value="-" id="fu" onclick="num01()"></li>
+				<li><input type="button" value="倒数" id="daoshu" onclick="divide1()"></li>
+			</ul>
+		</div>
+		<div class="row3">
+			<ul>
+				<li><input type="button" value="7" id="num7" onclick="num7()"></li>
+				<li><input type="button" value="8" id="num8" onclick="num8()"></li>
+				<li><input type="button" value="9" id="num9" onclick="num9()"></li>
+				<li><input type="button" value="除号" id="chu" onclick="divide()"></li>
+				<li><input type="button" value="百分数" id="bai" onclick="quyu()"></li>
+			</ul>
+		</div>
+		<div class="row4">
+			<ul>
+				<li><input type="button" value="4" id="num4" onclick="num4()"></li>
+				<li><input type="button" value="5" id="num5" onclick="num5()"></li>
+				<li><input type="button" value="6" id="num6" onclick="num6()"></li>
+				<li><input type="button" value="乘号" id="cheng" onclick="times()"></li>
+				<li><input type="button" value="开根号" id="kaigenhao" onclick="pow2()"></li>
+			</ul>
+		</div>
+		<div class="row5">
+			<ul>
+				<li><input type="button" value="1" id="num1" onclick="num1()"></li>
+				<li><input type="button" value="2" id="num2" onclick="num2()"></li>
+				<li><input type="button" value="3" id="num3" onclick="num3()"></li>
+				<li><input type="button" value="减号" id="jian" onclick="minus()"></li>
+			</ul>
+		</div>
+		<div class="row6">
+			<ul>
+				<li><input type="button" value="0" id="num" class="zero" onclick="num()"></li>
+				<li><input type="button" value="." id="num00" onclick="num00()"></li>
+				<li><input type="button" value="加号" id="jia" onclick="plus1()"></li>
+			</ul>
+		</div>
+		<div class="row7">
+			<ul>
+				<li><input type="button" value="等于" id="equal" onclick="equal()"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/count.js"></script>
+</body>
+</html>

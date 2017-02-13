@@ -1,0 +1,52 @@
+.{
+	padding:0;
+	margin:0;
+}
+/*水平分布*/
+.con{
+	display:-webkit-flex;
+	width:600px;
+	background-color: green;
+}
+.first{
+	height:100px;
+	-webkit-flex:1;
+	background-color: orange;
+}
+.second{
+	height:100px;
+	-webkit-flex:1;
+	background-color: aquamarine;
+}
+.third{
+	height:200px;
+	-webkit-flex:1;
+	background-color: #F3FF7F;
+}
+/*垂直分布*/
+.con1{
+	display:-webkit-flex;
+	width:600px;
+	background-color: green;
+	-webkit-box-orient:vertical;
+	height:500px;
+	-webkit-flex-direction:column;
+}
+.first1{
+	-webkit-order:2;
+	height:100px;
+	-webkit-flex:1;
+	background-color: orange;
+}
+.second1{
+	-webkit-order:3;
+	height:100px;
+	-webkit-flex:1;
+	background-color: aquamarine;
+}
+.third1{
+	-webkit-order:1;
+	height:200px;
+	-webkit-flex:1;
+	background-color: #F3FF7F;
+}

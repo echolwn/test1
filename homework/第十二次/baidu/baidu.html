@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/baidu.js"></script>
+    <script src="js/article.js"></script>
+    <link rel="stylesheet" href="css/baidu.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header>
+        <!-- 导航左侧 -->
+        <div class="left">
+            <span class="city"></span>
+            <span class="degree">度</span>
+            <span class="how"></span>
+            <span class="number"></span>
+            <a href="#">宝箱</a>
+            <a href="#" class="color">换肤</a>
+            <a href="#">消息</a>
+        </div>
+        <div class="center"></div>
+        <!-- 导航右侧 -->
+        <div class="right">
+            <!-- 更多产品 -->
+            <span class="more">
+                更多产品
+                <ul id="product">
+                    <li class="morein">更多产品</li>
+                    <li class="music">
+                        <img src="picture/music.png" height="36" width="40"/>
+                        <a href="">音乐</a>
+                    </li>
+                    <li class="imag">
+                        <img src="picture/image.png" height="36" width="36" alt=""/>
+                        <a href="">图片</a>
+                    </li>
+                    <li class="know">
+                        <img src="picture/zhidao.png" height="36" width="36" alt=""/>
+                        <a href="">知道</a>
+                    </li>
+                    <li class="ku">
+                        <img src="picture/wenku.png" height="36" width="36" alt=""/>
+                        <a href="">文库</a>
+                    </li>
+                    <li class="bang">
+                        <img src="picture/bang.png" alt=""/>
+                        <a href="">风云榜</a>
+                    </li>
+                    <li class="tuiguang">
+                        <img src="picture/tuiguang.png" height="36" width="36" alt=""/>
+                        <a href="">百度推广</a>
+                    </li>
+                    <li class="all">
+                        <a href="">全部产品&gt;&gt;</a>
+                    </li>
+                </ul>
+            </span>
+            <!-- 设置 -->
+            <a href="#" id="aid2">
+                设置
+                <div class="triangle1"></div>
+                <ul class="ul2">
+                    <li>
+                        搜索设值
+                    </li>
+                    <li>
+                        高级搜索
+                    </li>
+                    <li>
+                        开启预测
+                    </li>
+                    <li class="history">
+                        搜索历史
+                    </li>
+                </ul>
+            </a>
+            <a href="#" id="aid1">
+                Echo
+                <div class="triangle1"></div>
+                <ul class="ul1">
+                    <li id="vip">我的VIP</li>
+                    <li id="personal">个人中心</li>
+                    <li id="id">账号设置</li>
+                    <!-- 意见反馈 -->
+                    <li id="return">
+                        意见反馈
+                    </li>
+                    <li id="back">退出</li>
+                </ul>
+            </a>
+            <a href="#">贴吧</a>
+            <a href="#">视频</a>
+            <a href="#">地图</a>
+            <a href="#">hao123</a>
+            <a href="#">新闻</a>
+            <a href="#">糯米</a>
+        </div>
+        <!-- 换肤 -->
+        <div class="background">
+            <img src="picture/xunyicao1.jpg" alt="">
+            <img src="picture/xunyicao2.jpg" alt="">
+            <img src="picture/xunyicao3.jpg" alt="">
+            <p class="close">关闭</p>
+        </div>
+    </header>
+    <article>
+        <div class="hide">
+            <div class="ohide">
+                <div class="hide1">
+                    <img src="picture/logo1.png">
+                    <input type="text">
+                    <button>百度一下</button>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- logo -->
+        <div class="logo">
+            <img src="picture/baidu.png">
+        </div>
+        <!-- 表单 -->
+        <div class="form">
+            <form action="">
+                <input type="text">
+                <button>百度一下</button>
+            </form>
+            <!-- <span></span> -->
+            <div class="micimg"></div>
+        </div>
+        <!-- 下面的新闻部分 -->
+        <div class="main">
+            <div class="main1">
+                <ul class="mul">
+                    <li>
+                        我的关注
+                    </li>
+                    <li class="gray">推荐</li>
+                    <li>导航</li>
+                    <li>视频</li>
+                    <li>购物</li>
+                    <li></li>
+                </ul>
+            </div>
+            <!-- 我的关注 -->
+            <div class="guan bianli">
+                <div class="top1">
+                    <span>我的导航</span>
+                    <span>(0)</span>
+                </div>
+                <div class="top2">
+                    <span>+</span>
+                    <span>自定义</span>
+                </div>
+            </div>
+            <div class="tui bianli play">
+                <!-- 推荐 -->
+                <!-- 左边新闻部分 -->
+                <div class="news">
+                    <div class="news1">
+                        <div class="title">
+                            <div class="line1"></div>
+                            <div class="word">
+                                以下信息根据您的兴趣推荐
+                            </div>
+                            <div class="line2"></div>
+                        </div>
+                        <div class="news2">
+                            <a href="#">
+                                <span>
+                                中国8月减持美债337亿美元 持债规模创近4年新低
+                            </span>
+                            </a>
+                            <p>
+                                <span><a href="#">搜狐财经</a></span>
+                                <span>10-19 07:05</span>
+                                <span class="hot">热点</span>
+                            </p>
+                        </div>
+                        <div class="news2">
+                            <a href="#">
+                                <span>
+                                三星Note 7事件再发酵：可能面临集体诉讼
+                            </span>
+                            </a>
+                            <p>
+                                <span><a href="#">新浪新闻</a></span>
+                                <span>10-19 02:20</span>
+                                <span class="hot">热点</span>
+                            </p>
+                        </div>
+                        <div class="news2" id="fagai">
+                            <a href="#">
+                                <span>
+                                发改委调研报告：中国就业应从四个方面发力
+                            </span>
+                            </a>
+                            <p>
+                                <span><a href="#">凤凰财经</a></span>
+                                <span>10-19 06:32</span>
+                                <span class="hot">热点</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="redian">
+                    <div class="shishi">
+                        <span class="s1">实时热点</span>
+                        <span class="s2">换一换</span>
+                    </div>
+                    <ul class="ul-1">
+                        <li><a href="">沈阳在建地铁塌方</a><span>新</span></li>
+                        <li><a href="">林志玲发型被吐槽</a><span>新</span></li>
+                        <li><a href="">爆马蓉妈妈找群演</a><span>新</span></li>
+                        <li><a href="">用老公称呼不雅</a></li>
+                        <li><a href="">爆徐峥神秘女过夜</a></li>
+                        <li><a href="">南宁发生惨烈车祸</a></li>
+                        <li><a href="">张柏芝遇最老粉丝</a></li>
+                        <li><a href="">初三女生摔倒死亡</a></li>
+                    </ul>
+                    <ul class="ul-2">
+                        <li><a href="">放生500只巴西龟</a><span>新</span></li>
+                        <li><a href="">沙特王子被处决</a><span>新</span></li>
+                        <li><a href="">点羊排吃到猪骨</a><span>新</span></li>
+                        <li><a href="">央视女主播走红</a></li>
+                        <li><a href="">叶一茜微博遭攻陷</a></li>
+                        <li><a href="">穿百件衣服险窒息</a></li>
+                        <li><a href="">公交猥亵女孩被殴</a></li>
+                        <li><a href="">杨幂进军营纯素颜</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 导航 -->
+            <div class="nav bianli">
+                <div class="love">
+                    <span>猜你喜欢</span>
+                </div>
+                <div class="web">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span><img src="picture/nuomi.png" height="16" width="16"></span>
+                                <span>百度糯米</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/jd.png"></span>
+                                <span>京东商城</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/1.png" height="16" width="16"></span>
+                                <span>1号店</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/lion.png" height="16" width="16"></span>
+                                <span>苏宁易购</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/temai.png" height="16" width="16"></span>
+                                <span>唯品会</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/dang.png" height="16" width="16"></span>
+                                <span>当当网</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/dang.png" height="16" width="16"></span>
+                                <span>当当网</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/xinlang.png" height="16" width="16"></span>
+                                <span>新浪邮箱</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>南昌航空</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>css</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/yingcai.png" height="16" width="16"></span>
+                                <span>中华英才网</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/123.png" height="16" width="16"></span>
+                                <span>招聘</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>css选择器</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>南昌航空</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/jishu.png" height="16" width="16"></span>
+                                <span>各种高度</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/baidu1.png" height="16" width="16"></span>
+                                <span>百度地图</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>css</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/nuomi.png" height="16" width="16"></span>
+                                <span>百度糯米</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>HTML</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/xinlang.png" height="16" width="16"></span>
+                                <span>新浪微博</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ps.png" height="16" width="16"></span>
+                                <span>photosh..</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>图片处理</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>ps教程</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><img src="picture/ie.png" height="16" width="16"></span>
+                                <span>jQuery</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 视频 -->
+            <div class="watch bianli">
+                <div class="movie">
+                    <div class="angel">
+                        <img src="picture/pade.jpg" height="270" width="193" alt="">
+                        <p class="p1">极速天使</p>
+                        <p>评分5.1</p>
+                    </div>
+                    <div class="bear">
+                        <img src="picture/summer.jpg" height="270" width="193" alt="">
+                        <p class="p1">熊出没之夏日连连看</p>
+                        <p>评分8.4</p>
+                    </div>
+                    <div class="four">
+                        <ul>
+                            <li>
+                                <img src="picture/pic1.jpg" height="100" width="190" alt="">
+                                <a href=""><span>中国维和部队驻马里超级营地遭曲射火箭弹袭击</span></a>
+                            </li>
+                            <li>
+                                <img src="picture/pic2.jpg" height="100" width="190" alt="">
+                                <a href=""><span>【奇葩大本营】活捉剧毒的五步蛇当场泡酒</span></a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <img src="picture/pic3.jpg" height="100" width="190" alt="">
+                                <a href="">
+                                    <span>比两栖攻击舰还牛？美称DDG-1000能搭载F-35B</span>
+                                </a>
+                            </li>
+                            <li>
+                                <img src="picture/pic4.jpg" height="100" width="190" alt="">
+                                <a href="">
+                                    <span>吴晓波频道：你的朋友圈竟这么值钱！</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="load">
+                <div class="circle"></div>
+            </div> -->
+            </div>
+            <!-- 购物 -->
+            <div class="shop bianli">
+                <div class="shop1">
+                    <img src="picture/zao.jpg">
+                    <img src="picture/apple.jpg">
+                    <img src="picture/cup.jpg">
+                    <div class="white1">山东阿胶无核蜜枣</div>
+                    <div class="white2">爆品热卖只要20.5元</div>
+                    <div class="white3">甘肃花牛苹果8斤</div>
+                    <div class="white4">百度用户只要29元</div>
+                </div>
+                <div class="white5">
+                    不锈钢电热水壶
+                </div>
+                <div class="white6">百度用户只要28.6元</div>
+                <div class="shop2">
+                    <div class="heads">
+                        <p>1元得iPhone SE</p>
+                        <p>其他超值商品 1元可得</p>
+                        <p class="look">去看看</p>
+                    </div>
+                    <div class="unders">
+                        <ul>
+                            <li class="one"><a href="#">返利商城</a></li>
+                            <li><a href="#">京东商城</a></li>
+                            <li><a href="#">1号店</a></li>
+                            <li><a href="#">蘑菇街</a></li>
+                            <li><a href="#">聚美优品</a></li>
+                            <li><a href="#">国美在线</a></li>
+                        </ul>
+                        <ul class="u2">
+                            <li><a href="#">百度糯米</a></li>
+                            <li><a href="#">当当网</a></li>
+                            <li><a href="#">唯品会</a></li>
+                            <li><a href="#">苏宁易购</a></li>
+                            <li><a href="#" class="duo">更多</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="bottom"></div> -->
+            </div>
+    </article>
+    <footer>
+        <div class="fspan1">
+            <dl>
+                <dt class="dt1"><a href="">设为首页</a></dt>
+                <dt>©2016 Baidu </dt>
+                <dt><a href="">使用百度前必读</a></dt>
+                <dt><a href="">意见反馈</a></dt>
+                <dt>京ICP证030173号</dt>
+                <dt class="dt4">
+                    <img src="picture/f1.png" height="16" width="14" alt="">
+                </dt>
+            </dl>
+            <dl>
+                <dt class="ddt">
+                    <a href="#">京公网安备11000002000001号</a>
+                </dt>
+            </dl>
+        </div>
+    </footer>
+</body>
+
+</html>

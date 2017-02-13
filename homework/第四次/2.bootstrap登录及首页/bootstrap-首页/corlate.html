@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<link rel="stylesheet" href="./wenjian/bootstrap.min.css">
+	<link rel="stylesheet" href="./wenjian/corlate.css">
+	<script src="./wenjian/jquery.min.js"></script>
+	<script src="./wenjian/bootstrap.min.js"></script>
+	<script src="./wenjian/tab.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="daohang">
+				<span class="sr-only">响应式布局</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav" id="daohang">
+				<li class="article">
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">About Us</a>
+				</li>
+				<li>
+					<a href="#">Service</a>
+				</li>
+				<li>
+					<a href="#">Protfolio</a>
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						Page
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">404</a></li>
+						<li><a href="#">Shortcodes</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="col-md-2">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-defualt">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapse" data-toggle="collapse" data-parent="#accordion">
+								Dashboard
+							</a>
+						</h4>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">
+								UI Elements
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<div class="panel-body">
+							Tabs & Panels
+						</div>
+						<div class="panel-body">
+							Notifications
+						</div>
+						<div class="panel-body">
+							Progressbars
+						</div>
+						<div class="panel-body">
+							Buttons
+						</div>
+						<div class="panel-body">
+							Icons
+						</div>
+						<div class="panel-body">
+							Wizard
+						</div>
+						<div class="panel-body">
+							Typography
+						</div>
+						<div class="panel-body">
+							Grid
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">
+								Extra Pages
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+						<div class="panel-body">
+							Invoice
+						</div>
+						<div class="panel-body">
+							Pricing
+						</div>
+						<div class="panel-body">
+							Components
+						</div>
+						<div class="panel-body">
+							Social
+						</div>
+						<div class="panel-body">
+							Messages & Tasks
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapseThree" data-toggle="collapse" data-parent="#accordion">
+								Forms
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse">
+						<div class="panel-body">
+							Basic
+						</div>
+						<div class="panel-body">
+							Advance
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-defualt">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+								Gallery
+							</a>
+						</h4>
+					</div>
+				</div>
+				<div class="panel panel-defualt">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+								Error Page
+							</a>
+						</h4>
+					</div>
+				</div>
+				<div class="panel panel-defualt">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+								Login Page
+							</a>
+						</h4>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapseFour" data-toggle="collapse" data-parent="#accordion">
+								Multilevel Link
+							</a>
+						</h4>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse">
+						<div class="panel-body">
+							Second Level Link
+						</div>
+						<div class="panel-body">
+							Second Level Link
+						</div>
+						<div class="panel-body">
+							Second Level Link
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-defualt">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a href="#collapse4" data-toggle="collapse" data-parent="#accordion">
+								Blank Page
+							</a>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-10">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header">
+						<h1>PANELS & TABS</h1>
+					</div>
+					<p>This is dummy text , you can replace it with your original text.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Default Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Primary Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Success Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Info Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Warning Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Danger Panel
+							</h3>
+						</div>
+						<div class="panel-body">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+						</div>
+						<div class="panel-footer">
+							Panel Footer
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Basic Tabs
+							</h3>
+						</div>
+						<div class="panel-body">
+							<ul id="myTab" class="nav nav-tabs">
+								<li class="active">
+									<a href="#home" data-toggle="tab" aria-controls="home" role="tab">
+										Home
+									</a>
+								</li>
+								<li>
+									<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+										Profile
+									</a>
+								</li>
+								<li>
+									<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+										Messages
+									</a>
+								</li>
+								<li>
+									<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+										Settings
+									</a>
+								</li>
+							</ul>
+							<div id="myTabContent" class="tab-content">
+								<div class="tab-pane fade in active" id="home">
+									<p>
+										<h3>Home Tab</h3>
+									</p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+								<div class="tab-pane fade" id="profile">
+									<p>
+										<h3>Profile Tab</h3>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+								</div>
+								<div class="tab-pane fade" id="messages">
+									<p>
+										<h3>Messages Tab</h3>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+								</div>
+								<div class="tab-pane fade" id="settings">
+									<p>
+										<h3>Settings Tab</h3>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Basic Tabs
+							</h3>
+						</div>
+						<div class="panel-body">
+							<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">
+								Home
+							</button>
+							<div id="demo" class="collapse in">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div class="row">
+			<div class="col-md-4">
+				<div class="well well-lg">
+					<h3>Normal Well</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="well well-lg">
+					<h3>Normal Well</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="well well-lg">
+					<h3>Normal Well</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue.
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,224 @@
+*{
+	margin:0;
+	padding:0;
+}
+.body{
+	min-height:580px;
+	height:100%;
+	position:relative;
+}
+/*这是导航栏*/
+header{
+	position:relative;
+	margin-right:px;
+}
+header a{
+	position:relative;
+	margin-right:12px;
+	float:right;
+	font-size:12px;
+	color:black;
+}
+header a:hover{
+	color:blue;
+}
+header .more-product{
+	position:relative;
+	float:right;
+	background-size:contain;
+	background-color:#3385ff;
+	color:white;
+	font-size:12px;
+	margin-left:-24px;
+	border-bottom:1px solid #38f;
+	background:#38f;
+	line-height:13px;
+	text-align:center;
+	overflow:hidden;
+	cursor: pointer;
+}
+header .more-product ul{
+	position:fixed;
+	display:none;
+	list-style:none;
+	font-size:12px;
+	margin-left:-12px;
+	margin-top:-1px;
+}
+header .more-product ul li{
+	width:64px;
+}
+header .more-product ul li a{
+
+}
+header .shezhi{
+	width:48px;
+	position:relative;
+	margin-right:12px;
+	float:right;
+	text-decoration:underline;
+	font-size:12px;
+}
+header .shezhi ul{
+	position:fixed;
+	display:none;
+	list-style:none;
+	text-align:center;
+	margin-left:-25px;
+	margin-top:-1px;
+	font-size:12px;
+}
+header .shezhi:hover{
+	color:blue;
+}
+header .shezhi ul li{
+	margin-left:12px;
+}
+header .shezhi ul li a{
+	text-decoration:none;
+}
+header .shezhi ul{
+	border:1px solid #ddd;
+	box-shadow: 1px 1px 5px #ddd;
+	z-index:99;
+}
+header span ul li img{
+	width:43px;
+	height:36px;
+}
+header span:hover ul{
+	display:block;
+	background: transparent;
+}
+header .shezhi ul li a:hover{
+	color:#FFFFFF;
+	background:#3385ff;
+	width:100%;
+}
+/*logo*/
+.baidu{
+	position:absolute;
+	left:50%;
+	top:15%;
+	margin-left:-135px;
+}
+img{
+	width:270px;
+	height:129px;
+}
+/*输入框*/
+#text{
+	width:540px;
+	height:36px;
+	position:absolute;
+	left:47%;
+	top:35%;
+	margin-left:-270px;
+	border:solid 1px #DDDDDD;
+	padding-left:6px;
+	margin-top:0px;
+}
+#text:hover 
+{ 
+	border:solid 1px #AAAAAA;
+}
+#text:focus
+{ 
+	border:solid 1px #ccc;
+}
+/*相机*/
+.sousuo{
+	width:18px;
+	height:16px;
+	background:url(camera.png);
+	background-repeat:no-repeat;
+	background-position:0 0;
+	position:absolute;
+	top:36%;
+	left:50%;
+	margin-left:180px;
+	margin-top:2px;
+}
+.sousuo:hover{
+	width:18px;
+	height:16px;
+	background:url(camera.png);
+	background-repeat:no-repeat;
+	background-position:0px -16px;
+}
+/*百度一下*/
+.button{
+	width:100px;
+	height:38px;
+	background-color:#3385ff;
+	color:white;
+	position:absolute;
+	left:50%;
+	top:35%;
+	margin-left:225px;
+	border:none;
+}
+.button:hover{
+	background-color:#317ef3;
+	border-bottom:1px solid #2868c8;
+	box-shade:2px 2px 2px #ccc;
+	-webkit-box-shade:1px 1px 1px #ccc;
+	-moz-box-shade:1px 1px 1px #ccc;
+	cursor:pointer;
+}
+#select{
+	position:absolute;
+	top:36%;
+	left:50%;
+	margin-left:340px;
+}
+/*这是百度首页最低端的内容*/
+.footer{
+	width:700px;
+}
+.png1{
+	width:60px;
+	height:60px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	margin-left:-320px;
+}
+.span1{
+	font-size:14px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	margin-left:-246px;
+}
+.png2{
+	width:60px;
+	height:60px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	margin-left:-148px;
+}
+.span2{
+	font-size:14px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	margin-left:-78px;
+}
+.span3{
+	font-size:14px;
+	position:absolute;
+	left:50%;
+	top:85%;
+	margin-left:20px;
+}
+.png3{
+	width:14px;
+	height:17px;
+}
+.png4{
+	width:14px;
+	height:17px;
+}
+

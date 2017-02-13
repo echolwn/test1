@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:13px;
+}
+/*右上角怎么改都改不成圆角*/
+/*白色圆角矩形*/
+.three{
+	display:-webkit-box;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	width:710px;
+	height:2100px;
+	background-color:white;
+	margin:29px auto;
+	padding:29px;
+}
+/*导航*/
+.title{
+	position:absolute;
+	top:30px;
+	right:50px;
+	font-size:12px;
+	margin-top:76px;
+	width:530px;
+
+}
+/*下面表单内容*/
+#article{
+	position:absolute;
+	margin-top:100px;
+	margin-left:-175px;
+}
+table{
+	width:700px;
+
+}
+.two{
+	text-align:center;
+}
+.back{
+	background-color:#EEEEEE;
+}
+.data{
+	margin-left:13px;
+}
+.truename{
+	width:136px;
+}
+.back1{
+	background-color:#EEEEEE;
+}
+.data1{
+	margin-left:13px;
+}
+.back2{
+	background-color:#EEEEEE;
+}
+.data2{
+	margin-left:13px;
+}
+.myself{
+	float:right;
+	margin-top:50px;
+}
+.myself1{
+	float:right;
+	margin-top:260px;
+}
+.salary{
+	float:right;
+	margin-top:65px;
+}
+.button{
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+.footer{
+	margin:auto;
+}
+
