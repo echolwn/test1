@@ -1,0 +1,2 @@
+任务 2: 掌握HTML5新增元素及CSS3核心技术
+学会HTML5新增的改良元素以及CSS和CSS3核心技术和盒子模型，能够基本掌握常用的CSS。【留意每一关的参考资料】【入学必读：http://jiuye.jikexueyuan.com/topic/669】

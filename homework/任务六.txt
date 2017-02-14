@@ -1,0 +1,3 @@
+任务 6: JavaScript DOM、BOM、事件和高级技巧
+任务讲解与布置
+本周主要是原生JavaScript操作DOM、BOM等，以及JS事件、JS闭包、this等高级技巧。
